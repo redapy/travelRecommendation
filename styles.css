@@ -214,3 +214,178 @@ body {
 .social-icons i {
   font-size: 20px;
 }
+
+/* about page */
+ .about-content {
+     position: relative;
+     z-index: 1;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+
+ .about-content h2 {
+     color: white;
+     font-size: 60px;
+     margin-bottom: 40px;
+     text-align: center;
+ }
+
+ .about-info {
+     background-color: rgba(0, 0, 0, 0.7);
+     padding: 30px;
+     border-radius: 10px;
+     margin-bottom: 50px;
+ }
+
+ .about-info p {
+     color: white;
+     font-size: 18px;
+     line-height: 1.6;
+     margin-bottom: 20px;
+ }
+
+ .about-info p strong {
+     color: #4ecdc4;
+ }
+
+ /* Team Section */
+ .team-section {
+     background-color: rgba(0, 0, 0, 0.7);
+     padding: 30px;
+     border-radius: 10px;
+ }
+
+ .team-section h3 {
+     color: white;
+     font-size: 36px;
+     margin-bottom: 30px;
+ }
+
+ .team-members {
+     display: flex;
+     justify-content: space-between;
+     gap: 30px;
+ }
+
+ .team-member {
+     text-align: center;
+     flex: 1;
+ }
+
+ .team-member .avatar {
+     width: 80px;
+     height: 80px;
+     background-color: #4ecdc4;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto 15px;
+ }
+
+ .team-member .avatar i {
+     color: white;
+     font-size: 36px;
+ }
+
+ .team-member h4 {
+     color: white;
+     font-size: 22px;
+     margin-bottom: 10px;
+ }
+
+ .team-member p {
+     color: #ccc;
+     font-size: 16px;
+     margin-bottom: 15px;
+ }
+
+ .team-member .role {
+     display: inline-block;
+     background-color: #4ecdc4;
+     color: white;
+     padding: 8px 20px;
+     border-radius: 20px;
+     font-weight: bold;
+ }
+
+ /* contact */
+
+     
+ .contact-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-info {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Form Styles */
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4ecdc4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #36b5ac;
+}
